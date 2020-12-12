@@ -103,10 +103,10 @@
 									<a href="about.html">Về chúng tôi</a>
 								</li>
 								<li><a href="contact.html">Liên hệ</a></li>
-								<li class="btn-cta">
-									<a href="auth/index.html">
-										<span>Đăng nhập</span>
-									</a>
+								<!-- <li class="btn-cta"> -->
+									<li>
+									<router-link to="/loginpage">Đăng nhập</router-link>
+									
 								</li>
 								<li class="has-dropdown">
 									<a style="cursor: default">

@@ -53,22 +53,23 @@
 									<a style="cursor: default">Học tập</a>
 									<ul class="dropdown">
 										<li>
-											<a href="subject.html">Toán học</a>
+											<a href="#">Toán học</a> 
+											<!-- subject.html -->
 										</li>
 										<li>
-											<a href="subject.html">Vật Lý</a>
+											<a href="#">Vật Lý</a>
 										</li>
 										<li>
-											<a href="subject.html">Hoá Học</a>
+											<a href="#">Hoá Học</a>
 										</li>
 										<li>
-											<a href="subject.html">Sinh Học</a>
+											<a href="#">Sinh Học</a>
 										</li>
 										<li>
-											<a href="subject.html">Anh Văn</a>
+											<a href="#">Anh Văn</a>
 										</li>
 										<li>
-											<a href="subject.html">Công Dân</a>
+											<a href="#">Công Dân</a>
 										</li>
 									</ul>
 								</li>
@@ -131,8 +132,8 @@
 		</nav>
   </div>
 </template>
-
-<script src="js/modernizr-2.6.2.min.js"></script>
+ 
+<script src="src/assets/js/modernizr-2.6.2.min.js"></script>
 <script>
 export default {
 
@@ -140,11 +141,17 @@ export default {
 </script>
 
 <style>
-	@import './assets/css/animate.css';
-	@import './assets/css/icomoon.css';
-	@import './assets/css/boostrap.css';
-	@import './assets/css/magnific-popup.css';
-	@import './assets/css/flexslider.css';
-	@import './assets/css/magnific-popup.css';
-	@import './assets/css/magnific-popup.css';
+	@import '../assets/css/animate.css';
+	@import '../assets/css/icomoon.css';
+	@import '../assets/css/bootstrap.css';
+	@import '../assets/css/magnific-popup.css';
+	@import '../assets/css/flexslider.css';
+	@import '../assets/css/magnific-popup.css';
+	@import '../assets/css/flexslider.css';
+	/* @import '../assets/css/owl.carousel.min.css'; */
+	@import '../assets/css/owl.theme.default.min.css';
+	@import '../assets/css/style.css';
+	/* @import '../assets/fonts/fontawesome-5.12.0'; */
+	@import '../assets/fonts/flaticon/font/flaticon.css';
+
 </style>

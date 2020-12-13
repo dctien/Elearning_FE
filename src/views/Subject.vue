@@ -1,7 +1,5 @@
 <template>
   <div class="subject">
-      <div class="colorlib-loader"></div>
-
 	<div id="page">
 		<nav class="colorlib-nav" role="navigation">
 			<div class="upper-menu">
@@ -101,17 +99,17 @@
 				</div>
 			</div>
 		</nav>
-		<aside id="colorlib-hero">
+		<!-- <div id="colorlib-hero">
 			<div class="flexslider">
 				<ul class="slides">
-			   	<li style="background-image: url(images/img_bg_2.jpg);">
+			   	<li style="background-image: url(../assets/images/img_bg_2.jpg);">
 			   		<div class="overlay"></div>
 			   		<div class="container-fluid">
 			   			<div class="row">
 				   			<div class="col-md-6 col-sm-12 col-md-offset-3 slider-text">
 				   				<div class="slider-text-inner text-center">
 				   					<h1>HỌC TẬP</h1>
-				   					<h2><span><a href="index.html">Trang chủ</a> | Toán học</span></h2>
+				   					<h2><span><a href="#">Trang chủ</a> | Toán học</span></h2>
 				   				</div>
 				   			</div>
 				   		</div>
@@ -119,7 +117,7 @@
 			   	</li>
 			  	</ul>
 		  	</div>
-		</aside>
+		</div> -->
 		
 		<div class="colorlib-classes">
 			<div class="container">
@@ -132,11 +130,12 @@
 				<div class="row">
 					<div class="col-md-4 animate-box">
 						<div class="classes">
-							<div class="classes-img" style="background-image: url(images/classes-1.jpg);">
+							<div class="classes-img" >
 								<span class="price text-center"><small>Free</small></span>
+								<!-- <img src="@/assets/images/classes-1.jpg" alt=""> -->
 							</div>
 							<div class="desc">
-								<h3><a href="subject_detail.html">Chủ đề 1</a></h3>
+								<h3><a href="#">Chủ đề 1</a></h3>
 								<p>Pointing has no control about the blind texts it is an almost unorthographic life</p>
 								<p><i class="fa fa-eye"></i> 10</p>
 							</div>
@@ -144,7 +143,7 @@
 					</div>
 					<div class="col-md-4 animate-box">
 						<div class="classes">
-							<div class="classes-img" style="background-image: url(images/classes-2.jpg);">
+							<div class="classes-img" >
 								<span class="price text-center"><small>Free</small></span>
 							</div>
 							<div class="desc">
@@ -156,7 +155,7 @@
 					</div>
 					<div class="col-md-4 animate-box">
 						<div class="classes">
-							<div class="classes-img" style="background-image: url(images/classes-1.jpg);">
+							<div class="classes-img" >
 								<span class="price text-center"><small>Free</small></span>
 							</div>
 							<div class="desc">
@@ -168,7 +167,7 @@
 					</div>
 					<div class="col-md-4 animate-box">
 						<div class="classes">
-							<div class="classes-img" style="background-image: url(images/classes-2.jpg);">
+							<div class="classes-img" >
 								<span class="price text-center"><small>Free</small></span>
 							</div>
 							<div class="desc">
@@ -180,7 +179,7 @@
 					</div>
 					<div class="col-md-4 animate-box">
 						<div class="classes">
-							<div class="classes-img" style="background-image: url(images/classes-1.jpg);">
+							<div class="classes-img" >
 								<span class="price text-center"><small>Free</small></span>
 							</div>
 							<div class="desc">
@@ -192,7 +191,7 @@
 					</div>
 					<div class="col-md-4 animate-box">
 						<div class="classes">
-							<div class="classes-img" style="background-image: url(images/classes-2.jpg);">
+							<div class="classes-img" >
 								<span class="price text-center"><small>Free</small></span>
 							</div>
 							<div class="desc">
@@ -207,7 +206,7 @@
 			</div>	
 		</div>
 	
-		<div id="colorlib-subscribe" class="subs-img" style="background-image: url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
+		<div id="colorlib-subscribe" class="subs-img" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
@@ -297,7 +296,7 @@
 					<div class="col-md-3 colorlib-widget">
 						<h4>Recent Post</h4>
 						<div class="f-blog">
-							<a href="blog.html" class="blog-img" style="background-image: url(images/blog-1.jpg);">
+							<a href="blog.html" class="blog-img" >
 							</a>
 							<div class="desc">
 								<h2>
@@ -309,7 +308,7 @@
 							</div>
 						</div>
 						<div class="f-blog">
-							<a href="blog.html" class="blog-img" style="background-image: url(images/blog-2.jpg);">
+							<a href="blog.html" class="blog-img1" >
 							</a>
 							<div class="desc">
 								<h2>
@@ -321,7 +320,7 @@
 							</div>
 						</div>
 						<div class="f-blog">
-							<a href="blog.html" class="blog-img" style="background-image: url(images/blog-3.jpg);">
+							<a href="blog.html" class="blog-img2">
 							</a>
 							<div class="desc">
 								<h2>
@@ -390,5 +389,22 @@ export default {
 	@import '../assets/css/style.css';
 	/* @import '../assets/fonts/fontawesome-5.12.0'; */
 	@import '../assets/fonts/flaticon/font/flaticon.css';
-
+.classes-img {
+background-image: url('../assets/images/classes-1.jpg');
+}
+.classes-img1{
+	background-image: url('../assets/images/classes-2.jpg');
+}
+.subs-img{
+	background-image: url('../assets/images/img_bg_2.jpg');
+}
+.blog-img{
+	 background-image: url('../assets/images/blog-1.jpg');
+}
+.blog-img1{
+	 background-image: url('../assets/images/blog-2.jpg');
+}
+.blog-img2{
+	 background-image: url('../assets/images/blog-3.jpg');
+}
 </style>

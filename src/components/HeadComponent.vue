@@ -97,10 +97,10 @@
 									</ul>
 								</li>
 								<li>
-									<a href="news.html">Bài viết mới</a>
+									<router-link to="/news">Bản tin</router-link>
 								</li>
 								<li>
-									<a href="about.html">Về chúng tôi</a>
+									<router-link to="/abouts">Về chúng tôi</router-link>
 								</li>
 								<li><a href="contact.html">Liên hệ</a></li>
 								<!-- <li class="btn-cta"> -->

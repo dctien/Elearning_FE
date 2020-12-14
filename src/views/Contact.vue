@@ -1,94 +1,73 @@
 <template>
-  <div class="abouts">
-  <Head-component/>
-		
-		<!-- <aside id="colorlib-hero">
-			<div class="flexslider">
-				<ul class="slides">
-			   	<li style="background-image: url(images/img_bg_2.jpg);">
-			   		<div class="overlay"></div>
-			   		<div class="container-fluid">
-			   			<div class="row">
-				   			<div class="col-md-6 col-sm-12 col-md-offset-3 slider-text">
-				   				<div class="slider-text-inner text-center">
-				   					<h1>About Us</h1>
-				   					<h2><span><a href="index.html">Trang chủ</a> | About</span></h2>
-				   				</div>
-				   			</div>
-				   		</div>
-			   		</div>
-			   	</li>
-			  	</ul>
-		  	</div>
-		</aside> -->
-		
-		<div id="colorlib-about" class="colorlib-light-grey">
+  <div class="contact">
+    <Head-component />
+    <div id="colorlib-contact">
 			<div class="container">
-				<div class="row row-pb-md">
-					<div class="col-md-8 col-md-offset-2 row-pb-md animate-box">
-						<div class="video colorlib-video" style="background-image: url(images/img_bg_1.jpg);">
-							<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-play3"></i></a>
-							<div class="overlay"></div>
-						</div>
-					</div>
-					<div class="col-md-10 col-md-offset-1 text-center animate-box">
-						<div class="about-wrap">
-							<div class="heading-2">
-								<h2>Robust Gym the leading fitness site</h2>
-							</div>
-							<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-							<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-						</div>
-					</div>
-				</div>
 				<div class="row">
-					<div class="col-md-4 animate-box">
-						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					<div class="col-md-10 col-md-offset-1 animate-box">
+						<h2>Thông tin liên lạc</h2>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="contact-info-wrap-flex">
+									<div class="con-info">
+										<p><span><i class="icon-location-2"></i></span> Số 1 Đại Cồ Việt, <br> Quận Hai Bà Trưng, Hà Nội</p>
+									</div>
+									<div class="con-info">
+										<p><span><i class="icon-phone3"></i></span> <a href="tel://0982999999">0982.999.999</a></p>
+									</div>
+									<div class="con-info">
+										<p><span><i class="icon-paperplane"></i></span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+									</div>
+									<div class="con-info">
+										<p><span><i class="icon-globe"></i></span> <a href="#">study.com</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="col-md-4 animate-box">
-						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-					</div>
-					<div class="col-md-4 animate-box">
-						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					<div class="col-md-10 col-md-offset-1 animate-box">
+						<h2>Phản hồi cho chúng tôi</h2>
+						<form action="#">
+							<div class="row form-group">
+								<div class="col-md-6">
+									<!-- <label for="fname">First Name</label> -->
+									<input type="text" id="fname" class="form-control" placeholder="Tên">
+								</div>
+								<div class="col-md-6">
+									<!-- <label for="lname">Last Name</label> -->
+									<input type="text" id="lname" class="form-control" placeholder="Họ">
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<div class="col-md-12">
+									<!-- <label for="email">Email</label> -->
+									<input type="text" id="email" class="form-control" placeholder="Email">
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<div class="col-md-12">
+									<!-- <label for="subject">Subject</label> -->
+									<input type="text" id="subject" class="form-control" placeholder="Chủ đề">
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<div class="col-md-12">
+									<!-- <label for="message">Message</label> -->
+									<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Hãy viết những ý kiến của bạn về chất lượng của trang web"></textarea>
+								</div>
+							</div>
+							<div class="form-group">
+								<input type="submit" value="Gửi" class="btn btn-primary">
+							</div>
+						</form>		
 					</div>
 				</div>
 			</div>
 		</div>
-
-		<div class="colorlib-trainers">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
-						<h2>Thành viên Admin</h2>
-						<p></p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 col-sm-6 animate-box">
-						<div class="trainers-entry">
-							<div class="trainer-img" style="background-image: url(images/person1.jpg)"></div>
-							<div class="desc">
-								<h3>Thang NK</h3>
-								<span>Student</span>
-							</div>
-							<p class="social"><a href="#">Twitter</a> <a href="#">Facebook</a> <a href="#">Email</a></p>
-						</div>
-					</div>
-
-					<div class="col-md-6 col-sm-6 animate-box">
-						<div class="trainers-entry">
-							<div class="trainer-img" style="background-image: url(images/person2.jpg)"></div>
-							<div class="desc">
-								<h3>Thuc MM</h3>
-								<span>Student</span>
-							</div>
-							<p class="social"><a href="#">Twitter</a> <a href="#">Facebook</a> <a href="#">Email</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	
+		
 		<div id="colorlib-subscribe" class="subs-img" style="background-image: url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
@@ -105,12 +84,12 @@
 							<form class="form-inline qbstp-header-subscribe">
 								<div class="col-three-forth">
 									<div class="form-group">
-										<input type="text" class="form-control" id="email" placeholder="Email của bạn">
+										<input type="text" class="form-control" id="email" placeholder="Enter your email">
 									</div>
 								</div>
 								<div class="col-one-third">
 									<div class="form-group">
-										<button type="submit" class="btn btn-primary">Đăng ký ngay</button>
+										<button type="submit" class="btn btn-primary">Subscribe Now</button>
 									</div>
 								</div>
 							</form>
@@ -258,19 +237,14 @@
 				</div>
 			</div>
 		</footer>
-	
-
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
-	</div>
-	
   </div>
 </template>
 <script src="src/assets/js/modernizr-2.6.2.min.js"></script>
 <script>
-import HeadComponent from '../components/HeadComponent.vue';
+import HeadComponent from "../components/HeadComponent.vue";
 export default {
-  components: { HeadComponent },};
+  components: { HeadComponent },
+};
 </script>
 
 <style>
@@ -285,5 +259,4 @@ export default {
 	@import '../assets/css/owl.theme.default.min.css';
 	@import '../assets/css/style.css';
 	/* @import '../assets/fonts/fontawesome-5.12.0'; */
-	@import '../assets/fonts/flaticon/font/flaticon.css';
-</style>
+	@import '../assets/fonts/flaticon/font/flaticon.css';</style>

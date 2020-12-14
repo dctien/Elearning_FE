@@ -102,7 +102,7 @@
 								<li>
 									<router-link to="/abouts">Về chúng tôi</router-link>
 								</li>
-								<li><a href="contact.html">Liên hệ</a></li>
+								<li><router-link to="/contact">Thông tin liên hệ</router-link></li>
 								<!-- <li class="btn-cta"> -->
 									<li>
 									<router-link to="/loginpage">Đăng nhập</router-link>

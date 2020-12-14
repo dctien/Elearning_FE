@@ -148,10 +148,10 @@ export default {
 	@import '../assets/css/flexslider.css';
 	@import '../assets/css/magnific-popup.css';
 	@import '../assets/css/flexslider.css';
-	/* @import '../assets/css/owl.carousel.min.css'; */
+	@import '../assets/css/owl.carousel.min.css';
 	@import '../assets/css/owl.theme.default.min.css';
 	@import '../assets/css/style.css';
-	/* @import '../assets/fonts/fontawesome-5.12.0'; */
+	@import '../assets/fonts/fontawesome-5.12.0';
 	@import '../assets/fonts/flaticon/font/flaticon.css';
 
 </style>

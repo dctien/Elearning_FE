@@ -206,7 +206,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .user-img,
 .blog-img,
 .colorlib-about-img,
-.services-img,{
+.services-img{
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -606,7 +606,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .intro-wrap{
 	z-index: 1;
-	margin-top: -7.4em;
+	margin-top: 5em;
 }
 .intro-flex{
 	width: 100%;

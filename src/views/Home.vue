@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HeadComponent></HeadComponent>
+    <HeadComponent></HeadComponent>  
   </div>
 </template>
 
@@ -12,7 +12,7 @@ import HeadComponent from "@/components/HeadComponent.vue";
 export default {
   name: "Home",
   components: {
-    HeadComponent
+    HeadComponent,
   }
 };
 </script>
